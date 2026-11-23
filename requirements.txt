@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+pandas
+numpy
+scikit-learn
+tensorflow-cpu
+shap
+python-multipart
+groq
+faiss-cpu
+python-dotenv
+pydantic
+python-jose[cryptography]
+passlib[argon2]

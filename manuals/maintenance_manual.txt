@@ -1,0 +1,187 @@
+TURBOFAN ENGINE MAINTENANCE MANUAL — EXCERPT
+
+Section 4: Bearing and Vibration Diagnostics
+
+4.1 Vibration Spike Root Causes
+
+A sudden rise in vibration amplitude on the fan or core shaft bearings is most commonly
+caused by bearing wear, imbalance from blade erosion, or misalignment following a hard
+landing or foreign object damage.
+
+Bearing wear typically presents as a gradual rise in RMS vibration over dozens of
+operating cycles, whereas imbalance from blade damage tends to appear suddenly and
+remains constant in amplitude at a fixed rotational frequency.
+
+4.2 Recommended Action for Vibration Anomalies
+
+When vibration sensors report values exceeding baseline by more than 30%, technicians
+should first cross-check temperature sensors on the same shaft.
+
+A simultaneous rise in both vibration and bearing temperature strongly indicates
+lubrication breakdown or bearing surface wear.
+
+Isolated vibration rise without temperature increase more often points to imbalance or
+a loose mount.
+
+In either case, a borescope inspection of the affected bearing housing is recommended
+within the next maintenance window.
+
+
+Section 5: Temperature and Thermal Degradation
+
+5.1 Interpreting Gradual Temperature Rise
+
+A slow, steady increase in exhaust gas temperature (EGT) or bearing temperature across
+many operating cycles, without a corresponding vibration spike, usually indicates
+gradual efficiency loss — commonly from compressor fouling, seal wear, or coolant
+degradation.
+
+This pattern differs from bearing failure, which pairs temperature rise with vibration
+increase.
+
+5.2 Recommended Action for Thermal Anomalies
+
+If temperature trends upward by more than 5% over 20 cycles with no vibration
+correlation, schedule a compressor wash and seal inspection.
+
+If temperature rise is paired with rising vibration, treat as a bearing-wear case per
+Section 4.2 and prioritize inspection.
+
+
+Section 6: Remaining Useful Life (RUL) Interpretation
+
+6.1 Using RUL Estimates for Maintenance Planning
+
+An estimated RUL below 30 cycles should trigger a "Warning" maintenance flag,
+prompting a detailed inspection at the next scheduled ground stop.
+
+An estimated RUL below 15 cycles should trigger a "Critical" flag, and the asset should
+be scheduled for inspection before its next operating cycle wherever possible.
+
+RUL estimates should always be read alongside the anomaly detector output — a low RUL
+combined with an active anomaly flag indicates higher urgency than a low RUL alone,
+since it suggests an acute fault rather than gradual wear.
+
+6.2 False Positive Considerations
+
+Anomaly detectors can occasionally flag transient sensor noise as an anomaly,
+particularly during rapid throttle changes.
+
+A single-cycle anomaly flag with no corresponding trend in vibration or temperature
+over the following 2–3 cycles can often be treated as noise rather than a genuine
+fault, though it should still be logged for pattern tracking.
+
+
+Section 7: General Maintenance Recommendations by Component
+
+7.1 Bearings
+
+Inspect for wear, pitting, or lubricant contamination.
+
+Replace if vibration RMS exceeds 2x baseline or if bearing temperature exceeds
+manufacturer threshold for more than 10 consecutive cycles.
+
+7.2 Compressor Section
+
+Wash to remove fouling if efficiency-related temperature rise is observed without
+vibration correlation.
+
+Inspect blades for erosion if vibration and temperature both trend upward slowly
+over many cycles.
+
+7.3 Sensors
+
+Recalibrate or replace sensors that show implausible single-cycle jumps inconsistent
+with surrounding readings, as these are more likely instrumentation faults than
+mechanical faults.
+
+
+Section 8: Compressor Fault Diagnostics
+
+8.1 Compressor Fouling
+
+Compressor fouling may cause gradual efficiency loss and a steady increase in
+temperature-related sensor readings without a corresponding sharp vibration spike.
+
+When this pattern continues across multiple operating cycles, inspect compressor
+performance indicators and schedule a compressor wash during the next suitable
+maintenance window.
+
+8.2 Compressor Blade Erosion
+
+Blade erosion can reduce compressor efficiency and may produce a gradual increase in
+temperature together with slowly increasing vibration.
+
+If both temperature and vibration trend upward over several cycles, inspect the
+compressor blades for erosion, surface damage, or foreign object damage.
+
+8.3 Compressor Surge or Instability
+
+Rapid changes in pressure-related measurements accompanied by abnormal vibration,
+temperature fluctuations, or unstable engine behavior may indicate compressor
+instability.
+
+Do not rely on a single sensor value. Cross-check related pressure, temperature,
+and vibration channels before deciding on corrective maintenance.
+
+
+Section 9: Electrical Fault Diagnostics
+
+9.1 Electrical Sensor and Wiring Faults
+
+Unexpected single-cycle jumps, drops to impossible values, or abrupt discontinuities
+in an electrical sensor channel may indicate wiring problems, connector faults,
+sensor failure, or intermittent instrumentation.
+
+Before replacing a mechanical component, verify the sensor wiring, connectors,
+power supply, and sensor calibration.
+
+9.2 Power and Control Irregularities
+
+Repeated abnormal readings across several electrical-related channels may indicate
+a power supply or control-system problem.
+
+Check electrical connections, grounding, connector condition, and control-system
+diagnostics before returning the engine to service.
+
+9.3 Recommended Action for Electrical Anomalies
+
+If an electrical anomaly persists across multiple cycles, isolate the affected
+sensor or circuit and compare its readings with neighboring sensors and historical
+baseline behavior.
+
+If the anomaly disappears after a connector or wiring inspection, log the event as
+an instrumentation fault and continue monitoring.
+
+If abnormal behavior continues after sensor and wiring checks, escalate the issue
+for detailed electrical-system inspection.
+
+
+Section 10: Diagnostic Decision Guidance
+
+10.1 Combined Sensor Evidence
+
+A single abnormal sensor value should not automatically be treated as a mechanical
+failure.
+
+Higher diagnostic confidence is obtained when multiple related measurements show
+a consistent trend.
+
+For example, increasing vibration together with increasing bearing temperature
+is more significant than an isolated vibration spike.
+
+10.2 Maintenance Priority
+
+Use the following priority guidance:
+
+Warning:
+RUL below 30 cycles or a persistent abnormal trend requiring inspection planning.
+
+Critical:
+RUL below 15 cycles, especially when accompanied by an active anomaly.
+
+Urgent:
+Critical RUL combined with a persistent anomaly and supporting sensor trends.
+
+Always review the machine health prediction, anomaly status, RUL estimate, and relevant
+sensor trends together before making a maintenance decision.
